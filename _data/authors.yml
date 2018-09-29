@@ -1,0 +1,11 @@
+# Sample Authors
+# Remove file or replace with your own
+
+Steve Martinelli:
+  name: Steve Martinelli
+  picture: /images/bio-photo-2.jpg
+  twitter: "@stevebot"
+  links:
+    - title: Twitter
+      url: https://twitter.com/stevebot
+      icon: fab fa-twitter-square
