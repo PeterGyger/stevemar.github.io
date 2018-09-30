@@ -1,5 +1,6 @@
 ---
 title: "Keystone mid-cycle recap for Mitaka"
+excerpt: "A recap of topics that were discussed at the Mitaka mid-cycle meetup"
 tags: 
   - software
   - ibm
