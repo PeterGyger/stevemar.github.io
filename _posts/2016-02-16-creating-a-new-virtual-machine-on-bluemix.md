@@ -4,6 +4,8 @@ excerpt: "A quick run down on how to spin up a new virtual machine on Bluemix, I
 tags: 
   - software
   - ibm
+  - openstack
+  - ibm cloud
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2016/02/16/creating-a-new-virtual-machine-on-bluemix](https://developer.ibm.com/opentech/2016/02/16/creating-a-new-virtual-machine-on-bluemix)_
