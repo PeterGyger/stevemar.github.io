@@ -6,7 +6,7 @@ tags:
   - ibm
 ---
 
-_Originally posted on https://developer.ibm.com/opentech/2016/02/16/creating-a-new-virtual-machine-on-bluemix/_
+_Originally posted on [https://developer.ibm.com/opentech/2016/02/16/creating-a-new-virtual-machine-on-bluemix](https://developer.ibm.com/opentech/2016/02/16/creating-a-new-virtual-machine-on-bluemix)_
 
 First impressions are pretty important. Bluemix, IBMs one-stop-shop for all things cloud has been out for a while now, I’ve played with it when it was in closed-beta, but now it’s out in the wild! I figured I would write about my thoughts using the service, specifically I’ll take a look at the simple task of requesting a virtual machine (VM). My main use case for wanting to create a VM on bluemix is to [setup a ZNC bouncer](https://developer.ibm.com/opentech/2016/01/21/openstack-development-tips-setting-up-a-znc-bouncer/), I needed a VM on a cloud that'll give me a public IP address so I can check OpenStack development happening on IRC from anywhere -- my laptop or even my phone.
 
