@@ -1,4 +1,3 @@
-2018-03-21-ibm-watson-visual-recognition-service-to-support-apple-core-ml.md
 ---
 title: "IBM’s Watson Visual Recognition service to support Apple Core ML technology"
 excerpt: "Announcing that the Watson Visual Recognition service will now support Core ML"
