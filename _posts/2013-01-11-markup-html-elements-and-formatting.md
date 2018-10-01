@@ -3,13 +3,10 @@ title: "Markup: HTML Elements and Formatting"
 sub_title: "The common elements"
 categories:
   - Markup
-elements:
-  - content
-  - css
-  - formatting
-  - html
-  - markup
 last_modified_at: 2018-02-01T10:16:49-05:00
+image: 
+  path: https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
+  thumbnail: https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
 ---
 
 A variety of common HTML elements to demonstrate the theme's stylesheet and verify they have been styled appropriately.
@@ -351,5 +348,24 @@ GitHub Gist embeds can also be used:
 Which outputs as:
 
 <script src="https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js"></script>
+
+---
+
+# Hero image
+
+Add a horizontal image using the following YAML Front Matter:
+
+```yaml
+image:
+  path: /images/eder-oliveira-180877.jpg
+```
+
+Hero images can also be assigned more succinctly when `thumbnail` or `caption` are not used.
+
+```yaml
+image: /images/eder-oliveira-180877.jpg
+```
+
+Tall images will push content down the page. `1600 x 600` is a good middle-ground size to aim for.
 
 ---
