@@ -42,7 +42,6 @@ You can start making use of the Watson Swift SDK Core ML features in just a few 
 and here's an example of how to update a local model:
 
 ```swift
-
 func invokeModelUpdate()
 {
     let failure = { (error: Error) in
