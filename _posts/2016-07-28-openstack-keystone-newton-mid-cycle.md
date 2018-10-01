@@ -1,6 +1,6 @@
 ---
 title: "OpenStack Keystone Newton Mid-cycle Recap"
-excerpt: "A rundown of what will be doing on in the New priorities for Keystone"
+excerpt: "A recap of what went on in the OpenStack Keystone Newton mid-cycle meetup"
 tags: 
   - software
   - openstack
