@@ -7,6 +7,9 @@ tags:
   - advocacy
   - watson
   - swift
+image:
+  path: http://developer.ibm.com/code/wp-content/uploads/sites/118/2018/03/Apple_IBM_050616.png
+  thumbnail: http://developer.ibm.com/code/wp-content/uploads/sites/118/2018/03/Apple_IBM_050616.png
 ---
 
 _Originally posted on [https://developer.ibm.com/code/2018/03/21/ibm-watson-visual-recognition-service-to-support-apple-core-ml/](https://developer.ibm.com/code/2018/03/21/ibm-watson-visual-recognition-service-to-support-apple-core-ml/)_
