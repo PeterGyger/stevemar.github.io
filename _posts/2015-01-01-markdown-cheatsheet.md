@@ -1,5 +1,5 @@
 ---
-title: "Markup: HTML Elements and Formatting"
+title: "Markdown cheatsheet"
 sub_title: "The common elements"
 categories:
   - Markup
@@ -8,6 +8,8 @@ image:
   path: https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
   thumbnail: https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
 ---
+
+_Attribution of this content goes to the folks at so-simple: [https://github.com/mmistakes/so-simple-theme](https://github.com/mmistakes/so-simple-theme)_
 
 Enable table of contents on post or page by adding `{%raw %}{% include toc %}{% endraw %}` where you'd like it to appear.
 
