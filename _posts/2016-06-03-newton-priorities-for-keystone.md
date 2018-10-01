@@ -12,9 +12,9 @@ Below is a list of priorities the Keystone team has indicated are priorities for
 <!--more-->
 
 Other folks have written up summit recaps and goals in their own blogs:
-Adam Young: <a href="http://adam.younglogic.com/2016/05/identity-newton/" target="_blank">http://adam.younglogic.com/2016/05/identity-newton/ </a>
-Dolph Mathews: <a href="http://dolphm.com/openstack-newton-design-summit-outcomes-for-keystone/" target="_blank">http://dolphm.com/openstack-newton-design-summit-outcomes-for-keystone/</a> 
-Colleen Murphy: <a href="http://www.gazlene.net/austin-summit.html" target="_blank">http://www.gazlene.net/austin-summit.html</a> 
+* Colleen Murphy: [http://www.gazlene.net/austin-summit.html](http://www.gazlene.net/austin-summit.html)
+* Adam Young: [http://adam.younglogic.com/2016/05/identity-newton](http://adam.younglogic.com/2016/05/identity-newton)
+* Dolph Mathews: [http://dolphm.com/openstack-newton-design-summit-outcomes-for-keystone](http://dolphm.com/openstack-newton-design-summit-outcomes-for-keystone)
 
 <h2><a href="http://specs.openstack.org/openstack/keystone-specs/specs/keystone/newton/pci-dss.html" target="_blank">Configurable password compliance</a></h2>
 This will allow operators to have password requirements in a configurable manner. Change factors such as minimum password character length, number of days a user has before the password must be changed, number of allowed failed attempts, etc. 
