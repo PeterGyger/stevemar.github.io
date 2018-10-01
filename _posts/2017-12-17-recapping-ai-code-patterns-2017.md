@@ -10,7 +10,7 @@ tags:
 
 _Based on the following blog posts I wrote earlier:_
 
-* _[https://developer.ibm.com/code/2017/12/06/recapping-2017-ibm-code-patterns-watson-discovery/](https://developer.ibm.com/code/2017/12/06/recapping-2017-ibm-code-patterns-watson-discovery/)
+* _[https://developer.ibm.com/code/2017/12/06/recapping-2017-ibm-code-patterns-watson-discovery/](https://developer.ibm.com/code/2017/12/06/recapping-2017-ibm-code-patterns-watson-discovery/)_
 * _[https://developer.ibm.com/code/2017/12/06/recapping-2017-ibm-code-patterns-watson-visual-recognition/](https://developer.ibm.com/code/2017/12/06/recapping-2017-ibm-code-patterns-watson-visual-recognition/)_
 * _[https://developer.ibm.com/code/2017/12/06/recapping-2017-ibm-code-patterns-watson-data-platform/](https://developer.ibm.com/code/2017/12/06/recapping-2017-ibm-code-patterns-watson-data-platform/)_
 * _[https://developer.ibm.com/code/2017/12/06/recapping-2017-ibm-code-patterns-watson-conversation/](https://developer.ibm.com/code/2017/12/06/recapping-2017-ibm-code-patterns-watson-conversation/)_
