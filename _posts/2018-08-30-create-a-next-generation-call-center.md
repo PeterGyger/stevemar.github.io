@@ -38,7 +38,7 @@ As mentioned in the title, this [code pattern](/patterns/create-a-next-generatio
 
 IBM Voice Gateway also lets you use a service orchestration engine (SOE) to provide customization with APIs. This SOE sits between Watson Assistant and Voice Gateway so that you can further customize your environment with your own third-party APIs. See [their GitHub repo](https://github.com/WASdev/sample.voice.gateway) for examples. Additionally, Voice Gateway supports English, Japanese, Portuguese (Brazilian), and Spanish.
 
-![selfserviceagent]({{'/images/selfserviceagent.jpg'}})
+![selfserviceagent]({{'/images/selfserviceagent.png'}})
 
 IBM Voice Gateway provides a pretty nice set of features for self-service agents:
 
