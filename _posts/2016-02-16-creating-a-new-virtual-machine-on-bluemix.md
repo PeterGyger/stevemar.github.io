@@ -6,6 +6,9 @@ tags:
   - ibm
   - openstack
   - ibm cloud
+image:
+  path: https://developer.ibm.com/opentech/wp-content/uploads/sites/43/2016/02/bm_splash.png
+  thumbnail: https://developer.ibm.com/opentech/wp-content/uploads/sites/43/2016/02/bm_splash.png
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2016/02/16/creating-a-new-virtual-machine-on-bluemix](https://developer.ibm.com/opentech/2016/02/16/creating-a-new-virtual-machine-on-bluemix)_
