@@ -7,7 +7,10 @@ tags:
   - ibmcloud
   - twilio
   - watson voice gateway
-  - watson assistant  
+  - watson assistant
+image:
+  path: /images/selfserviceagent.png
+  thumbnail: /images/selfserviceagent.png
 ---
 
 _Originally posted on [https://developer.ibm.com/announcements/create-a-next-generation-call-center-blog](https://developer.ibm.com/announcements/create-a-next-generation-call-center-blog)_
