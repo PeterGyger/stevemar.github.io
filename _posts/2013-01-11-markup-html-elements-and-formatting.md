@@ -9,6 +9,12 @@ image:
   thumbnail: https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
 ---
 
+Enable table of contents on post or page by adding `{%raw %}{% include toc %}{% endraw %}` where you'd like it to appear.
+
+{% include toc %}
+
+---
+
 A variety of common HTML elements to demonstrate the theme's stylesheet and verify they have been styled appropriately.
 
 # Header one
