@@ -7,6 +7,7 @@ tags:
   - ibmcloud
   - watson
   - natural language
+  - python
 ---
 
 _Originally posted on [https://developer.ibm.com/code/2018/05/01/learn-create-python-web-app-uses-watson-natural-language-classifier](https://developer.ibm.com/code/2018/05/01/learn-create-python-web-app-uses-watson-natural-language-classifier)_
