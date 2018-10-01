@@ -12,7 +12,7 @@ In this post I'll be configuring Keystone to have an LDAP identity backend. In t
 
 ## Updates: F.A.Q.'s
 
-* Updated 8/31/2016 Since initially writing this article, I've had a bunch of questions. Here are some:
+* _Updated 8/31/2016_: Since initially writing this article, I've had a bunch of questions. Here are some:
 
 * _Q: How can I speed up the authentication process?_
 * A: Use LDAP connection pools, it's documented in [Keystone's docs](http://docs.openstack.org/developer/keystone/configuration.html#connection-pooling), and [Matt Fischer](https://twitter.com/openmfisch) has [blogged about](http://www.mattfischer.com/blog/?p=624) it too, even the default settings will speed things up.
