@@ -6,6 +6,9 @@ tags:
   - ibm
   - ibmcloud
   - mern
+image:
+  path: /images/web-starter-kits.png
+  thumbnail: /images/web-starter-kits.png
 ---
 
 _by Steve Martinelli and Emma Tucker_
