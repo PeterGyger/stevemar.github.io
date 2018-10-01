@@ -122,7 +122,7 @@ ibmcloud@bouncer:~$ znc --makeconf
 
 ```bash
 ibmcloud@bouncer:~$ sudo ufw allow 55901
-```bash
+```
 
 # Using ZNC's Web Interface
 
