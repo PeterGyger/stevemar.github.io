@@ -12,6 +12,7 @@ Below is a list of priorities the Keystone team has indicated are priorities for
 <!--more-->
 
 Other folks have written up summit recaps and goals in their own blogs:
+
 * Colleen Murphy: [http://www.gazlene.net/austin-summit.html](http://www.gazlene.net/austin-summit.html)
 * Adam Young: [http://adam.younglogic.com/2016/05/identity-newton](http://adam.younglogic.com/2016/05/identity-newton)
 * Dolph Mathews: [http://dolphm.com/openstack-newton-design-summit-outcomes-for-keystone](http://dolphm.com/openstack-newton-design-summit-outcomes-for-keystone)
