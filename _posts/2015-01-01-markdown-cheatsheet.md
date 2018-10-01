@@ -1,12 +1,11 @@
 ---
 title: "Markdown cheatsheet"
-sub_title: "The common elements"
-categories:
-  - Markup
-last_modified_at: 2018-02-01T10:16:49-05:00
+sub_title: "Quick lookup table for all markdown elements supported by the so-simple theme"
+tags:
+  - markdown
 image: 
-  path: https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
-  thumbnail: https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
+  path: http://timjames.me/img/jekyll/feature.jpg
+  thumbnail: http://timjames.me/img/jekyll/feature.jpg
 ---
 
 _Attribution of this content goes to the folks at so-simple: [https://github.com/mmistakes/so-simple-theme](https://github.com/mmistakes/so-simple-theme)_
