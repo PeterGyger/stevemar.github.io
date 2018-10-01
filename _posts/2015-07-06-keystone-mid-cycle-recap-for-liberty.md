@@ -66,9 +66,9 @@ When fully broken apart, the Identity team will offer the same features, just th
 I spent Thursday afternoon and most of Friday in a small working group. Together I hacked away on functional tests with Marek Denis, Roxanna Gherle, David Stanek and Anita Kuno. It has become increasingly clear that we need functional tests in Keystone, what was once an afterthought to most of us, is now a prime concern. We outlined 6 configurations that we need to start testing against:
 
 1. _Our current CI/CD setup:_ SQL Identity, SQL Assignment, UUID Tokens
-2. _Single LDAP for Identity:_ LDAP Identity, SQL Assignment, UUID | Fernet Token
-3. _Multiple Identity Backends:_ SQL+LDAP Identity, SQL Assignment, UUID | Fernet Tokens
-4. _Federating Identities:_ Federated Users + SQL Identity (service accounts), SQL Assignment, UUID | Fernet Token
+2. _Single LDAP for Identity:_ LDAP Identity, SQL Assignment, UUID and Fernet Token
+3. _Multiple Identity Backends:_ SQL+LDAP Identity, SQL Assignment, UUID and Fernet Tokens
+4. _Federating Identities:_ Federated Users + SQL Identity (service accounts), SQL Assignment, UUID and Fernet Token
 5. _Keystone to Keystone:_ Any two of the above, with one setup as an IdP, the other as an SP.
 6. _Notifications:_ Can reuse the current CI/CD, but requires a messaging service and listener to be setup.
 
