@@ -248,8 +248,8 @@ This allows you to denote <var>variables</var>.
 
 ---
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Oh I dunno. It&#39;s probably been over 15 years since I smudged out a face with a pencil and kneaded eraser. <a href="https://twitter.com/hashtag/WIP?src=hash">#WIP</a> <a href="https://twitter.com/hashtag/Sktchy?src=hash">#Sktchy</a> <a href="https://t.co/PwqbMddyVK">pic.twitter.com/PwqbMddyVK</a></p>&mdash; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/826644109670612997">February 1, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">At Content Marketing World, <a href="https://twitter.com/AndrewAndPete?ref_src=twsrc%5Etfw">@AndrewAndPete</a> show how to make your content stand out -- and host a weird-ass game show to prove their point. Awesome session! <a href="https://twitter.com/hashtag/CMWorld2018?src=hash&amp;ref_src=twsrc%5Etfw">#CMWorld2018</a> <a href="https://twitter.com/hashtag/CMWorld?src=hash&amp;ref_src=twsrc%5Etfw">#CMWorld</a> <a href="https://t.co/3rQahrub2r">pic.twitter.com/3rQahrub2r</a></p>&mdash; Neil MacKinnon (@neilmack99) <a href="https://twitter.com/neilmack99/status/1037745018369437701?ref_src=twsrc%5Etfw">September 6, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
