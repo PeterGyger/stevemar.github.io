@@ -4,7 +4,7 @@ excerpt: "An announcement blog for my latest Code Pattern, a MERN application"
 tags: 
   - software
   - ibm
-  - ibmcloud
+  - ibm cloud
   - mern
 image:
   path: /images/web-starter-kits.png
