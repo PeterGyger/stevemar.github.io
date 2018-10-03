@@ -4,7 +4,7 @@ excerpt: "My first take at using Watson's Natural Language Classifier"
 tags: 
   - software
   - ibm
-  - ibmcloud
+  - ibm cloud
   - watson
   - natural language
   - python
