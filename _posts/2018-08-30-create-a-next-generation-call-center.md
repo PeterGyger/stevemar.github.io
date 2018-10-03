@@ -4,7 +4,7 @@ excerpt: "Use the Voice Gateway offering on IBM Cloud Private to orchestrate Wat
 tags: 
   - software
   - ibm
-  - ibmcloud
+  - ibm cloud
   - twilio
   - watson voice gateway
   - watson assistant
