@@ -1,9 +1,9 @@
 ---
 title: "About Me"
-sub_title: ""
-tags:
-  - about
-  - ibm
+permalink: /about
+
+
+
 ---
 
 Steve Martinelli is a Senior Technicall Staff Member (STSM) and Engineering Manager focused on delivering developer advocacy content related to artificial intelligence. Previously he served as the Project Team Lead on OpenStack’s Identity, Authentication and Authorization service, code named Keystone. He focused on its Identity, Authentication and Authorization service, code named Keystone. In 2015 he began to serve as Keystone's Project Team Lead (PTL), a position he maintained for 18 months, where he focused on enabling Keystone to better integrate into enterprise environments.
