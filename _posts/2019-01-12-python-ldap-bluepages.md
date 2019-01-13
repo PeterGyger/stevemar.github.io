@@ -7,8 +7,8 @@ tags:
   - python
   - ldap
 image:
-  path: /images/bluepages.png
-  thumbnail: /images/bluepages.png
+  path: /images/bluepages-banner.png
+  thumbnail: /images/bluepages-banner.png
 ---
 
 If you've ever worked at IBM then you know what Bluepages is, for those who don't, it's the company's LDAP server. It's most commonly used via a web interface where employees can look up other employees. Check it out below.
