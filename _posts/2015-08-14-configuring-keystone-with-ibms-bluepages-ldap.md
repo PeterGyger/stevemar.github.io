@@ -4,6 +4,9 @@ excerpt: "Learn how to integrate your corporate LDAP identity provider with Keys
 tags: 
   - software
   - openstack
+image:
+  path: /images/openstack-arch.svg
+  thumbnail: /images/openstack-arch.svg
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2015/08/14/configuring-keystone-with-ibms-bluepages-ldap/](https://developer.ibm.com/opentech/2015/08/14/configuring-keystone-with-ibms-bluepages-ldap/)_
