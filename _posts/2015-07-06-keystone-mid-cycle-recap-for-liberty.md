@@ -4,6 +4,9 @@ excerpt: "A recap from the keystone liberty mid-cycle in Boston"
 tags: 
   - software
   - openstack
+image:
+  path: /images/openstack-logo.png
+  thumbnail: /images/openstack-logo.png
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2015/07/23/keystone-mid-cycle-recap-for-liberty/](https://developer.ibm.com/opentech/2015/07/23/keystone-mid-cycle-recap-for-liberty/)_
