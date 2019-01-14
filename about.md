@@ -43,7 +43,7 @@ In 2016 I served a 12 month term on OpenStack's Technical Committee, which provi
 
 * I live in Toronto with my wife and three kids.
 * On Wednesdays in the summer you'll likely find me on a baseball field.
-* My [Tsundoku](http://www.openculture.com/2018/07/tsundoku.html) is a mix of non-fiction, trivia, career, and fantasy books.
+* My [Tsundoku](https://en.wikipedia.org/wiki/Tsundoku) is a mix of non-fiction, trivia, career, and fantasy books.
 
 ### Education
 
