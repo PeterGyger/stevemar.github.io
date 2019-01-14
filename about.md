@@ -7,21 +7,15 @@ I'm a software developer living in Toronto, Canada. I've been lucky enough to tr
 
 ### Employment
 
-I'm a Senior Technical Staff Member (STSM) and Engineering Manager at IBM, where I'm focused on delivering developer advocacy content related to artificial intelligence and data science.
-
-Prior to my current role I worked on upstream OpenStack features (see below); internal tools for generating compatability reports across all IBM products; and developing WebSphere Application Server's configuration tools.
-
-Aside from whipping up features and fixing bugs I tend to find myself in leadership roles whereby my knack for organization can be used for good, rather than annoy my family.
+I'm a Senior Technical Staff Member (STSM) and Engineering Manager at IBM, where I'm focused on delivering developer advocacy content related to artificial intelligence and data science. Prior to my current role I worked on upstream OpenStack features (see below); internal tools for generating compatability reports across all IBM products; and developing WebSphere Application Server's configuration tools. Aside from whipping up features and fixing bugs I tend to find myself in leadership roles whereby my knack for organization can be used for good, rather than annoy my family.
 
 ### Open Source
 
-* I help maintain the [IBM Github Organization](https://github.com/ibm) for my employer, an organization spanning hundreds of repos and thousands of users.
+I help maintain the [IBM Github Organization](https://github.com/ibm) for my employer, an organization spanning hundreds of repos and thousands of users. 
 
-* From 2013 to 2017 my focus was to contribute to the OpenStack project. In 2015, I served as the Project Team Lead (PTL) on OpenStack’s Identity, Authentication and Authorization service, code named Keystone, an elected position that was maintained for 18 months (three terms). I mostly focused on enabling Keystone to better integrate into enterprise environments. Namely, I was also responsible for helping to add Federated Identity support and OAuth support to Keystone.
+From 2013 to 2017 my focus was to contribute to the OpenStack project. In 2015, I served as the Project Team Lead (PTL) on OpenStack’s Identity, Authentication and Authorization service, code named Keystone, an elected position that was maintained for 18 months (three terms). I mostly focused on enabling Keystone to better integrate into enterprise environments. Namely, I was also responsible for helping to add Federated Identity support and OAuth support to Keystone.
 
-* In 2016 I served a 12 month term on OpenStack's Technical Committee, which provides technical leadership for OpenStack as a whole, an ultimate appeals board for technical decisions and general oversight.
-
-* In addition to Keystone, I was also a frequent contributor to the OpenStackClient project, a command-line client for OpenStack that brings OpenStack APIs together into a single CLI. I am still an active maintainer of this project to date.
+In 2016 I served a 12 month term on OpenStack's Technical Committee, which provides technical leadership for OpenStack as a whole, an ultimate appeals board for technical decisions and general oversight. I was also a frequent contributor to the OpenStackClient project, a command-line client for OpenStack that brings OpenStack APIs together into a single CLI. I am still an active maintainer of this project to date.
 
 ### Speaker Profile
 
@@ -49,7 +43,6 @@ Aside from whipping up features and fixing bugs I tend to find myself in leaders
 
 * I live in Toronto with my wife and three kids.
 * On Wednesdays in the summer you'll likely find me on a baseball field.
-* I have an interest in local politics and wish I had more time to volunteer within my community.
 * My [Tsundoku](http://www.openculture.com/2018/07/tsundoku.html) is a mix of non-fiction, trivia, career, and fantasy books.
 
 ### Education
