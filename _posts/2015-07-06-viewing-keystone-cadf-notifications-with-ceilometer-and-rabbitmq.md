@@ -4,6 +4,9 @@ excerpt: "Taking a hack at making sure Keystone and Ceilometer can talk CADF lin
 tags: 
   - software
   - openstack
+image:
+  path: /images/openstack-arch.svg
+  thumbnail: /images/openstack-arch.svg
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2015/07/06/viewing-keystone-cadf-notifications-with-ceilometer-and-rabbitmq/](https://developer.ibm.com/opentech/2015/07/06/viewing-keystone-cadf-notifications-with-ceilometer-and-rabbitmq/)_
