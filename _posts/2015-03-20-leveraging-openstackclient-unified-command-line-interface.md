@@ -4,6 +4,9 @@ excerpt: "OpenStackClient (OSC) becomes an official project and releases v1.0.3"
 tags: 
   - software
   - openstack
+image:
+  path: /images/openstackcli.png
+  thumbnail: /images/openstackcli.png
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2015/03/20/leveraging-openstackclient-unified-command-line-interface](https://developer.ibm.com/opentech/2015/03/20/leveraging-openstackclient-unified-command-line-interface)_
