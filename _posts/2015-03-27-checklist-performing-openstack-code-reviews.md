@@ -4,6 +4,8 @@ excerpt: "Best practices for getting reviewing OpenStack patches"
 tags: 
   - software
   - openstack
+  path: /images/checklist.jpg
+  thumbnail: /images/checklist.jpg
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2015/03/27/checklist-performing-openstack-code-reviews](https://developer.ibm.com/opentech/2015/03/27/checklist-performing-openstack-code-reviews)_
