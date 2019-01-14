@@ -6,6 +6,9 @@ tags:
   - ibm
   - openstack
   - recap
+image:
+  path: /images/openstack-logo.png
+  thumbnail: /images/openstack-logo.png
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2016/02/13/keystone-mid-cycle-recap-for-mitaka/](https://developer.ibm.com/opentech/2016/02/13/keystone-mid-cycle-recap-for-mitaka/)_
