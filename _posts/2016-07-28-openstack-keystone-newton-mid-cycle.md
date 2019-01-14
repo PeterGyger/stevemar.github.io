@@ -4,6 +4,9 @@ excerpt: "A recap of what went on in the OpenStack Keystone Newton mid-cycle mee
 tags: 
   - software
   - openstack
+image:
+  path: /images/openstack-logo.png
+  thumbnail: /images/openstack-logo.png
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2016/07/28/openstack-keystone-newton-mid-cycle](https://developer.ibm.com/opentech/2016/07/28/openstack-keystone-newton-mid-cycle)_
