@@ -3,13 +3,25 @@ title: "About Me"
 permalink: /about
 ---
 
-Steve Martinelli is a Senior Technicall Staff Member (STSM) and Engineering Manager focused on delivering developer advocacy content related to artificial intelligence. Previously he served as the Project Team Lead on OpenStack’s Identity, Authentication and Authorization service, code named Keystone. He focused on its Identity, Authentication and Authorization service, code named Keystone. In 2015 he began to serve as Keystone's Project Team Lead (PTL), a position he maintained for 18 months, where he focused on enabling Keystone to better integrate into enterprise environments.
+I'm a software developer living in the Toronto. I've been lucky enough to travel, speak at conferences, and even write a book.
 
-Steve was responsible for adding Federated Identity and OAuth support to Keystone and was one of the leading contributors to Keystone to Keystone federation support for interoperable hybrid cloud enablement. Steve is also a frequent contributor to the OpenStackClient project, a command-line client for OpenStack that brings the Compute, Identity, Image, Object Storage and Block Storage APIs together into a single unified and easily consumable command line interface.
+### Employment
 
-In 2016 Steve began serving on OpenStack's Technical Committee, which provides technical leadership for OpenStack as a whole, an ultimate appeals board for technical decisions and general oversight. Steve has spoken at various OpenStack Summits, Centre for Advanced Students Conference (CASCON), and at the Cloud Identity Summit. Steve is a co-author of Identity, Authentication & Access Management in OpenStack, a book published by O'Reilly Media in 2015. Steve received his B.ASc. in Computer Engineering from York University in Toronto, Ontario, where he continues to reside.
+I'm a Senior Technicall Staff Member (STSM) and Engineering Manager focused on delivering developer advocacy content related to artificial intelligence.
 
-Speaker Profile:
+Prior to my current role I worked on upstream OpenStack features (see below); Internal tools for generating compatability reports across all IBM products; and developing WebSphere Application Server's configuration tools.
+
+Aside from whipping up features and fixing bugs I tend to find myself in leadership roles whereby my knack for organization is leveraged.
+
+### Open Source
+
+I contributed heavily to the OpenStack project from 2013 to 2017. I served as the Project Team Lead (PTL) on OpenStack’s Identity, Authentication and Authorization service, code named Keystone, in 2015, an elected position I maintained for 18 months.
+
+Steve was responsible for adding Federated Identity and OAuth support to Keystone. I focused on enabling Keystone to better integrate into enterprise environments. I am also a frequent contributor to the OpenStackClient project, a command-line client for OpenStack that brings the Compute, Identity, Image, Object Storage and Block Storage APIs together into a single unified and easily consumable command line interface.
+
+In 2016 Steve served a 12 month term on OpenStack's Technical Committee, which provides technical leadership for OpenStack as a whole, an ultimate appeals board for technical decisions and general oversight.
+
+### Speaker Profile
 
 * Vivatech - May 2018 - IBM Challenge: TechCrunch Hackathon
 * Index Developer Conference - February 2018 - Create a retail chatbot that uses Watson Conversation and Discovery
@@ -27,9 +39,17 @@ Speaker Profile:
 * OpenStack Summit Vancouver - May 2015 - New Advances in Federated Identity
 * OpenStack Summit Paris - November 2014 - Keystone to Keystone Federation
 * OpenStack Summit Atlanta - May 2014 - Federated Identity Support for OpenStack Clouds
-
-Workshops:
-
 * IBM Cloud Dojo - Austin - Advanced Authentication with Keystone
 * IBM Cloud Dojo - Toronto - Python and Keystone 101
 * IBM Cloud Dojo - Austin - Get Developing with OpenStack
+
+### @ Home
+
+* I live in Toronto with my wife and three kids.
+* I have an interest in local politics and wish I had more time to volunteer within my community.
+* On Wednesdays in the summer you'll likely find me on a baseball field.
+* My [Tsundoku](http://www.openculture.com/2018/07/tsundoku.html) is a mix of non-fiction, trivia, career, and fantasy books.
+
+### Education
+
+B.ASc. in Computer Engineering from York University in Toronto, Ontario
