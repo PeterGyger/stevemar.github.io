@@ -146,9 +146,9 @@ $ ibmcloud plugin list
 Listing installed plug-ins...
 
 Plugin Name                            Version   Status   
-container-service/kubernetes-service   0.2.30       
 dev                                    2.1.12       
 sdk-gen                                0.1.12       
-cloud-functions/wsk/functions/fn       1.0.22    Update Available   
+cloud-functions/wsk/functions/fn       1.0.28       
 container-registry                     0.1.360      
+container-service/kubernetes-service   0.2.30       
 ```
