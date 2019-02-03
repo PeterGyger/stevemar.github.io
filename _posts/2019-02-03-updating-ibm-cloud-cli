@@ -1,3 +1,14 @@
+---
+title: "Updating IBM Cloud CLI plugins"
+excerpt: "CLI Adventures: The IBM Cloud CLI edition"
+tags: 
+  - software
+  - ibm
+  - ibm-cloud
+#image:
+#  path: /images/bluepages-banner.png
+#  thumbnail: /images/bluepages-banner.png
+---
 
 So I had to update the IBM Cloud CLI. Easy right? Well, sorta. Now I know I had a few extra plugins (cloud-functions, container-service, and container-registry) in addition to the CLI, I was hoping those would be udpated at the same time.
 
