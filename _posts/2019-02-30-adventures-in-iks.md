@@ -12,10 +12,10 @@ image:
 
 ## Building image and testing locally
 
+```
 docker build -t validator:latest .
 docker run -d -p 5000:5000 validator
-
-
+```
 
 ## Push to IBM Cloud Kubernetes Service
 
@@ -120,5 +120,5 @@ git pull origin master
 docker build -t validator:latest .
 docker tag validator registry.ng.bluemix.net/aida/validator
 docker push registry.ng.bluemix.net/aida/validator
-ibmcloud ks worker-reboot -f --cluster validator-beta --workers kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1,kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w2
+ibmcloud ks worker-update -f --cluster validator-beta --workers kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1,kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w2
 ```
