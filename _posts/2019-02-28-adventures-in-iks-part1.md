@@ -32,7 +32,7 @@ We created a Dockerfile to containerize our app, leveraging the Python 3.7 image
 
 > :bulb: One issue we ran into was to ensure the app is hosted on 0.0.0.0. To do so, ensure the Flask app has the following line: `app.run(host='0.0.0.0')`, otherwise when you run your Docker image it won't work.
 
-```Dockerfile
+```make
 FROM python:3.7
 RUN apt-get -y install curl gnupg
 RUN curl -sL https://deb.nodesource.com/setup_11.x  | bash -
