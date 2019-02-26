@@ -30,7 +30,7 @@ You can likely take any flask sample from the interwebs and as long as you can g
 
 We created a Dockerfile to containerize our app, leveraging the Python 3.7 image. Lines 2 through 5 are only required if you need Node installed, too. 
 
-> :bulb: One issue we ran into was to ensure the `app.run(host='0.0.0.0')` to serve your Flask app, otherwise when you run your Docker image it won't work.
+> :bulb: One issue we ran into was to ensure the app is hosted on 0.0.0.0. To do so, ensure the Flask app has the following line: `app.run(host='0.0.0.0')`, otherwise when you run your Docker image it won't work.
 
 ```Dockerfile
 FROM python:3.7
