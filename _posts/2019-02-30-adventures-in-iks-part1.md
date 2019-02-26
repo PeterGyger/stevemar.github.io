@@ -166,4 +166,4 @@ Navigating to [http://169.xx.yy.116:31760](http://169.xx.yy.116:31760) shows up 
 
 ### Next post
 
-Check out my next blog post where I push a new version! *Coming soon!*
+Check out [my next blog post](http://www.stevemar.net/adventures-in-iks-part2/) where I push a new version!
