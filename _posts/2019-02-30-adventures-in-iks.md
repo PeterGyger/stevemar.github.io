@@ -10,6 +10,10 @@ image:
   thumbnail: /images/pyk8s.png
 ---
 
+## My flasky app
+
+Custom linter, think like JSON-lint but for frontmatter, a mix of Markdown and YAML. We ended up using flask, JSONSchema, and markdownlint (yes, the node based one) all over the place. 
+
 ## Building image and testing locally
 
 ```
