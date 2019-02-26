@@ -160,6 +160,7 @@ ibmcloud ks worker-update -f --cluster validator-beta --workers kube-dal10-cre85
 
 ### Thoughts
 
-I'm hoping to cram this into a shell script that Travis can run, this is instead of using the Delivery Pipeline.
+I'm hoping to cram this into a shell script that Travis can run, this is instead of using the Delivery Pipeline. And figure out how to host this on a proper URL instead of an IP address.
 
 Overall, pretty positive, though.
+
