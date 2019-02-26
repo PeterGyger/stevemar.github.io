@@ -10,7 +10,7 @@ image:
   thumbnail: /images/pyk8s.png
 ---
 
-## Backgroun / my app
+## Background / my app
 
 For my $DAY_JOB, a colleague and I were tasked with building a custom linter. Think [https://jsonlint.com/](https://jsonlint.com/) but for [Front Matter](https://jekyllrb.com/docs/front-matter/), a mix of YAML and Markdown, typically used to provide some metadata to a document, not unlike what I use for this blog.
 
