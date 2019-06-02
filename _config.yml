@@ -18,7 +18,7 @@ locale: en-US
 title: "Steve Martinelli's blog"
 description: "A place for my notes on tech and other things"
 baseurl: # the subpath of your site, e.g. "/blog"
-url: https://stevemart.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://stevemar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
@@ -98,7 +98,7 @@ author:
       url: https://twitter.com/stevebot
       icon: fab fa-twitter-square
     - title: GitHub
-      url: https://github.com/stevemart
+      url: https://github.com/stevemar
       icon: fab fa-github-square
 
 # Footer Links
@@ -107,7 +107,7 @@ footer_links:
     url: https://twitter.com/stevebot
     icon: fab fa-twitter-square
   - title: GitHub
-    url: https://github.com/stevemart
+    url: https://github.com/stevemar
     icon: fab fa-github-square
   - title: Feed
     url: atom.xml
