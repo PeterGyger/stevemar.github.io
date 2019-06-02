@@ -20,7 +20,7 @@ The repo is the cloned, remotes are updated, and it is pushed back to the new re
 
 ## `mover.sh`
 
-Nothing fancy, it meets my needs, feel free to re-use it. It's also available on my [Github](https://github.com/stevemart/junk_drawer/blob/master/mover.sh).
+Nothing fancy, it meets my needs, feel free to re-use it. It's also available on my [Github](https://github.com/stevemar/junk_drawer/blob/master/mover.sh).
 
 ```bash
 #!/bin/bash
