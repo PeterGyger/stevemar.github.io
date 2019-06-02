@@ -28,7 +28,7 @@ repo-foo    repo-bar    repo-baz    cleaner.sh
 
 ## `cleaner.sh`
 
-Nothing fancy, it meets my needs, feel free to re-use it. It's also available on my [Github](https://github.com/stevemart/junk_drawer/blob/master/workspace_cleaner.sh).
+Nothing fancy, it meets my needs, feel free to re-use it. It's also available on my [Github](https://github.com/stevemar/junk_drawer/blob/master/workspace_cleaner.sh).
 
 ```bash
 #!/bin/bash
