@@ -8,15 +8,17 @@ image:
   thumbnail: /images/open-source-is-magic.jpeg
 ---
 
-Open source projects don’t all have to be massive endeavours like [Kubernetes](https://github.com/kubernetes/), [OpenStack](http://opendev.org/openstack), or [Android](https://android.googlesource.com/). It’s great that these initiatives were open sourced, that vendors have been able to play nice, and they’ve become a standard. But the reality is, as a developer, you are far more likely to use a smaller open source library in your day-to-day work that are maintained by a few passionate folks, like [Homebrew](https://github.com/Homebrew) or [python-requests](https://3.python-requests.org/), or [MarkdownLint](https://github.com/DavidAnson/markdownlint).
+*Background image from: [https://blog.rapid7.com/2018/07/19/open-source-security-meetup-ossm-vegas-2018/](https://blog.rapid7.com/2018/07/19/open-source-security-meetup-ossm-vegas-2018/))
+
+Open source projects don’t all have to be massive endeavours like [Kubernetes](https://github.com/kubernetes/), [OpenStack](http://opendev.org/openstack), or [Android](https://android.googlesource.com/). It’s great that these initiatives were open sourced, that vendors have been able to play nice, and they’ve become a standard. But the reality is, as a developer, you are far more likely to use a smaller open source library in your day-to-day work that are maintained by a few passionate folks, like [Homebrew](https://github.com/Homebrew) or [python-requests](https://3.python-requests.org/) or [markdownlint](https://github.com/DavidAnson/markdownlint).
 
 > There are a bunch of blog posts about contributing to open source. I really appreciated Ian Stapleton Cordasco’s words from his [blog post](https://blog.ian.stapletoncordas.co/2019/02/open-sources-affects-on-a-career.html).
 
-Back to the story. A colleague at work mentioned he found a cool project called [Googliser](https://github.com/teracow/googliser/) to download images from Google’s Image Search. He needed images to build visual recognition models. Trouble was, Googliser didn’t have a feature he wanted, specifically to filter by license. So he avoided using it. Womp womp.
+Back to the story. A colleague at work mentioned he found a cool project called [Googliser](https://github.com/teracow/googliser/) to download images from Google’s Image Search. He needed images to build visual recognition models. Trouble was, Googliser didn’t have a feature he wanted, specifically to filter by license, so he avoided using it. Womp womp.
 
 I looked at the code for the project, realized it was just a bunch of bash, and said something along the lines of “Why don’t you just add that feature?”. He was confused, not having ever contributed to open source projects he didn’t know where to start (my first dive into the world of open source was back in 2012).
 
-So I went home early that day and whipped up a pull request to add the feature he was looking for. You can see it in all its [glory](https://github.com/teracow/googliser/pull/19)
+So I went home early that day and whipped up a pull request to add the feature he was looking for. You can see [the pull request](https://github.com/teracow/googliser/pull/19) it in all its glory.
 
 ![googliser-pr]({{'/images/googliser-pr.png'}})
 
