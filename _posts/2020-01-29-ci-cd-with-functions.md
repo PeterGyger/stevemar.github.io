@@ -256,8 +256,8 @@ The last step is to go back to the Functions console on IBM Cloud to verify ever
 
 Just like when the action was deployed manually, the action is listed, our simple action is shown, and the parameters were relayed from Travis CI to OpenWhisk.
 
-![OpenWhisk Parameters]({{'/images/ci-cd-with-functions/params.png'}})
-![Invoking the script]({{'/images/ci-cd-with-functions/invoke.png'}})
+![OpenWhisk Parameters](/images/ci-cd-with-functions/params.png)
+![Invoking the script](/images/ci-cd-with-functions/invoke.png)
 
 ## Summary
 
