@@ -18,7 +18,7 @@ There's one catch though, I have API keys in my serverless application. Wanting 
 
 Here's how it looks at a high level:
 
-![Architecture]({{'/images/ci-cd-with-functions/architecture.png'}})
+![Architecture](/images/ci-cd-with-functions/architecture.png)
 
 1. A developer creates a new pull request to their GitHub repo that has their serverless code.
 1. When a pull request is merged, Travis CI kicks off a new deployment.
@@ -58,7 +58,7 @@ From the IBM Cloud console, click the *Manage* option, choose the *Access (IAM)*
 
 Create a new IBM Cloud API key, give it any name you'd like.
 
-![New IBM Cloud API key]({{'/images/ci-cd-with-functions/ibm-cloud-api-key.png'}})
+![New IBM Cloud API key](/images/ci-cd-with-functions/ibm-cloud-api-key.png)
 
 Click on the reveal icon to view the API key.
 
