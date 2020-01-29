@@ -10,7 +10,7 @@ image:
   thumbnail: /images/ci-cd-with-functions/architecture.png
 ---
 
-> **This tutorial is a continuation of *[GitHub task automation with serverless actions](https://developer.ibm.com/tutorials/github-task-automation-with-serverless-actions/)*.
+> **This tutorial is a continuation of [GitHub task automation with serverless actions](https://developer.ibm.com/tutorials/github-task-automation-with-serverless-actions/)**.
 
 Getting a serverless action to run is all well and good but what if you need to update it? In this tutorial, I cover the quickest way to set up basic CI/CD for OpenWhisk actions using as few dependencies as possible. We'll use Travis CI, as it comes freely integrated with GitHub, and the IBM Cloud CLI, that's it!
 
