@@ -8,7 +8,7 @@ image:
   thumbnail: /images/opensource.png
 ---
 
-*Background image from: [https://blog.rapid7.com/2018/07/19/open-source-security-meetup-ossm-vegas-2018/](https://blog.rapid7.com/2018/07/19/open-source-security-meetup-ossm-vegas-2018/)*
+*Background image from: [https://opensource.org](https://opensource.org)*
 
 Open source projects don’t all have to be massive endeavours like [Kubernetes](https://github.com/kubernetes/), [OpenStack](http://opendev.org/openstack), or [Android](https://android.googlesource.com/). It’s great that these initiatives were open sourced, that vendors have been able to play nice, and they’ve become a standard. But the reality is, as a developer, you are far more likely to use a smaller open source library in your day-to-day work that are maintained by a few passionate folks, like [Homebrew](https://github.com/Homebrew) or [python-requests](https://3.python-requests.org/) or [markdownlint](https://github.com/DavidAnson/markdownlint).
 
