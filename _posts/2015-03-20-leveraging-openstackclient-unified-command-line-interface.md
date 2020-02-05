@@ -5,8 +5,8 @@ tags:
   - software
   - openstack
 image:
-  path: /images/openstackcli.png
-  thumbnail: /images/openstackcli.png
+  path: /images/leveraging-openstackclient-unified-command-line-interface/openstackcli.png
+  thumbnail: /images/leveraging-openstackclient-unified-command-line-interface/openstackcli.png
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2015/03/20/leveraging-openstackclient-unified-command-line-interface](https://developer.ibm.com/opentech/2015/03/20/leveraging-openstackclient-unified-command-line-interface)_

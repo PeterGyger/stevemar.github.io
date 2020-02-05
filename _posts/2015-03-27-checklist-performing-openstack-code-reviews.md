@@ -5,8 +5,8 @@ tags:
   - software
   - openstack
 image:
-  path: /images/checklist.jpg
-  thumbnail: /images/checklist.jpg
+  path: /images/checklist-performing-openstack-code-reviews/checklist.jpg
+  thumbnail: /images/checklist-performing-openstack-code-reviews/checklist.jpg
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2015/03/27/checklist-performing-openstack-code-reviews](https://developer.ibm.com/opentech/2015/03/27/checklist-performing-openstack-code-reviews)_
