@@ -1,7 +1,7 @@
 ---
 title: "Introducing the all-new IBM Code How-To Guides"
 excerpt: "An announcement blog for introducing IBM Code How-To Guides"
-tags: 
+tags:
   - software
   - ibm
   - advocacy

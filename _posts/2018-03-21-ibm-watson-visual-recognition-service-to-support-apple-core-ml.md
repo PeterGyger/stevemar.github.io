@@ -1,7 +1,7 @@
 ---
 title: "IBM’s Watson Visual Recognition service to support Apple Core ML technology"
 excerpt: "Announcing that the Watson Visual Recognition service will now support Core ML"
-tags: 
+tags:
   - software
   - advocacy
   - watson

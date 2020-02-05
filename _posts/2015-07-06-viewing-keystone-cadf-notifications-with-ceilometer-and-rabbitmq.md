@@ -1,19 +1,19 @@
 ---
 title: "Viewing Keystone CADF notifications with Ceilometer and RabbitMQ"
 excerpt: "Taking a hack at making sure Keystone and Ceilometer can talk CADF lingo"
-tags: 
+tags:
   - software
   - openstack
 image:
-  path: /images/openstack-arch.svg
-  thumbnail: /images/openstack-arch.svg
+  path: /images/generic/openstack-arch.svg
+  thumbnail: /images/generic/openstack-arch.svg
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2015/07/06/viewing-keystone-cadf-notifications-with-ceilometer-and-rabbitmq/](https://developer.ibm.com/opentech/2015/07/06/viewing-keystone-cadf-notifications-with-ceilometer-and-rabbitmq/)_
 
 This post is long overdue, but better late than never! This post will show how a user can view Keystone CADF notifications in both Ceilometer and RabbitMQ. To start, let's go over some basic concepts first.
 
-## Definitions:
+## Definitions
 
 * **Events**: An event is triggered when a user accesses certain APIs (i.e.: an administrator creates a new user)
 * **Auditing**: We want to be able to figure out who did what, from where, and to what resource.
@@ -171,8 +171,8 @@ Plugin configuration has changed. Restart RabbitMQ for changes to take effect.
 Restart RabbitMQ and ensure the management plugins are installed
 
 ```bash
-vagrant@vagrant-ubuntu-trusty-64:~/devstack$ sudo service rabbitmq-server restart 
- * Restarting message broker rabbitmq-server                                                                                                                                              [ OK ] 
+vagrant@vagrant-ubuntu-trusty-64:~/devstack$ sudo service rabbitmq-server restart
+ * Restarting message broker rabbitmq-server                                                                                                                                              [ OK ]
 
 vagrant@vagrant-ubuntu-trusty-64:~/devstack$ rabbitmq-plugins list
 [e] amqp_client                       3.2.4
@@ -212,14 +212,14 @@ You'll need to trigger another event, so create a user, project or role using Op
 
 [![Screen Shot 2015-07-05 at 12.31.26 AM](http://developer.ibm.com/opentech/wp-content/uploads/sites/43/2015/07/Screen-Shot-2015-07-05-at-12.31.26-AM.png)](http://developer.ibm.com/opentech/wp-content/uploads/sites/43/2015/07/Screen-Shot-2015-07-05-at-12.31.26-AM.png)
 
-2. Look for unread messages in the `notifications.info` queue.
+1. Look for unread messages in the `notifications.info` queue.
 
 [![Screen Shot 2015-07-05 at 12.30.43 AM](http://developer.ibm.com/opentech/wp-content/uploads/sites/43/2015/07/Screen-Shot-2015-07-05-at-12.30.43-AM.png)](http://developer.ibm.com/opentech/wp-content/uploads/sites/43/2015/07/Screen-Shot-2015-07-05-at-12.30.43-AM.png)
 
-3. Get the messages, there will be authentication messages and a `identity.user.created` message
+1. Get the messages, there will be authentication messages and a `identity.user.created` message
 
 [![Screen Shot 2015-07-05 at 12.32.06 AM](http://developer.ibm.com/opentech/wp-content/uploads/sites/43/2015/07/Screen-Shot-2015-07-05-at-12.32.06-AM.png)](http://developer.ibm.com/opentech/wp-content/uploads/sites/43/2015/07/Screen-Shot-2015-07-05-at-12.32.06-AM.png)
 
-4. View the payload of each message, which should be a CADF event
+1. View the payload of each message, which should be a CADF event
 
 [![Screen Shot 2015-07-05 at 12.30.18 AM](http://developer.ibm.com/opentech/wp-content/uploads/sites/43/2015/07/Screen-Shot-2015-07-05-at-12.30.18-AM.png)](http://developer.ibm.com/opentech/wp-content/uploads/sites/43/2015/07/Screen-Shot-2015-07-05-at-12.30.18-AM.png)

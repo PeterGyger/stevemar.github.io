@@ -1,7 +1,7 @@
 ---
 title: "Debugging keystone tests and live deployments"
 excerpt: "Unit tests, functional tests, on a web server or eventlet, we've got you covered"
-tags: 
+tags:
   - software
   - openstack
 ---
@@ -90,14 +90,14 @@ Restart Apache so the changes take effect.
 
 ```bash
 steve:devstack$ sudo service apache2 restart
- * Restarting web server apache2 - [ OK ] 
+ * Restarting web server apache2 - [ OK ]
 ```
 
 Attempting to list users will result in an error and upon checking the logs, a similar exception to the one seen above will be logged.
 
 ```bash
 steve$ openstack user list
-WARNING: openstackclient.shell The volume version  is not in supported versions 
+WARNING: openstackclient.shell The volume version  is not in supported versions
 ERROR: openstack An unexpected error prevented the server from fulfilling your request:  (Disable debug mode to suppress these details.) (HTTP 500) (Request-ID: req-7795e720-0196-4201-8a0a-44a136f4449e)
 ```
 
@@ -109,7 +109,7 @@ Use [rpdb](https://pypi.python.org/pypi/rpdb/) instead of pdb to remotely debug 
 steve$ nc 127.0.0.1 4444
 /opt/stack/keystone/keystone/identity/controllers.py(221)list_users()
 hints = UserV3.build_driver_hints(context, filters)
-(Pdb) 
+(Pdb)
 ```
 
 Now you may debug your application. Happy debugging!

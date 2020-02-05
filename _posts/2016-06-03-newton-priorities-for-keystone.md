@@ -1,12 +1,12 @@
 ---
 title: "Newton priorities for Keystone"
 excerpt: "A rundown of what will be doing on in the New priorities for Keystone"
-tags: 
+tags:
   - software
   - openstack
 image:
-  path: /images/openstack-logo.png
-  thumbnail: /images/openstack-logo.png
+  path: /images/generic/openstack-logo.png
+  thumbnail: /images/generic/openstack-logo.png
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2016/06/03/newton-priorities-for-keystone](https://developer.ibm.com/opentech/2016/06/03/newton-priorities-for-keystone)_
@@ -21,7 +21,7 @@ Other folks have written up summit recaps and goals in their own blogs:
 
 ## [Configurable password compliance](http://specs.openstack.org/openstack/keystone-specs/specs/keystone/newton/pci-dss.html)
 
-This will allow operators to have password requirements in a configurable manner. Change factors such as minimum password character length, number of days a user has before the password must be changed, number of allowed failed attempts, etc. 
+This will allow operators to have password requirements in a configurable manner. Change factors such as minimum password character length, number of days a user has before the password must be changed, number of allowed failed attempts, etc.
 
 ## [Python 3.X](http://specs.openstack.org/openstack/keystone-specs/specs/keystone/ongoing/python3.html)
 
@@ -29,7 +29,7 @@ We are close to having full python3 support for Keystone. The main issue holding
 
 ## [Online schema migrations](http://specs.openstack.org/openstack/keystone-specs/specs/keystone/backlog/online-schema-migration.html)
 
-Commit to only additive schema migrations (new tables or new columns) going forward; Subtractive schema migrations (deleting or renaming tables and columns) are to go through a deprecation period, and we write data to both locations. Nova already does this, take a look at their [developer docs](http://docs.openstack.org/developer/nova/upgrade.html#migration-policy) for more info. 
+Commit to only additive schema migrations (new tables or new columns) going forward; Subtractive schema migrations (deleting or renaming tables and columns) are to go through a deprecation period, and we write data to both locations. Nova already does this, take a look at their [developer docs](http://docs.openstack.org/developer/nova/upgrade.html#migration-policy) for more info.
 
 ## Fernet tokens as default
 

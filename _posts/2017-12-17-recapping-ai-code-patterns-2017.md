@@ -1,7 +1,7 @@
 ---
 title: "Recapping AI and Data Analysis code patterns of 2017"
 excerpt: "An recap blog that recaps all the code patterns my team published in 2017"
-tags: 
+tags:
   - software
   - ibm
   - advocacy

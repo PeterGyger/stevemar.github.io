@@ -1,7 +1,7 @@
 ---
 title: "Leveraging OpenStackClient as your unified command line interface"
 excerpt: "OpenStackClient (OSC) becomes an official project and releases v1.0.3"
-tags: 
+tags:
   - software
   - openstack
 image:
@@ -64,7 +64,7 @@ $ export OS_PROJECT_NAME=admin
 
 **_Example Identity v3 commands_** One of the driving factors for OpenStackClient is support for version 3 commands of OpenStack's Identity service. Below are some examples that showcase OpenStackClient working with Identity Service v3 only concepts.
 
-#### Creating a new group
+### Creating a new group
 
 ```bash
 $ openstack group create my_test_group
@@ -78,7 +78,7 @@ $ openstack group create my_test_group
 +-------------+----------------------------------+
 ```
 
-#### Listing domains
+### Listing domains
 
 ```bash
 $ openstack domain list

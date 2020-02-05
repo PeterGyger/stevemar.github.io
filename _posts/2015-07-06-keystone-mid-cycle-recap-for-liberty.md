@@ -1,12 +1,12 @@
 ---
 title: "Keystone mid-cycle recap for Liberty"
 excerpt: "A recap from the keystone liberty mid-cycle in Boston"
-tags: 
+tags:
   - software
   - openstack
 image:
-  path: /images/openstack-logo.png
-  thumbnail: /images/openstack-logo.png
+  path: /images/generic/openstack-logo.png
+  thumbnail: /images/generic/openstack-logo.png
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2015/07/23/keystone-mid-cycle-recap-for-liberty/](https://developer.ibm.com/opentech/2015/07/23/keystone-mid-cycle-recap-for-liberty/)_

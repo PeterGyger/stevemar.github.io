@@ -1,12 +1,12 @@
 ---
 title: "Configuring Keystone with IBM’s Bluepages LDAP"
 excerpt: "Learn how to integrate your corporate LDAP identity provider with Keystone"
-tags: 
+tags:
   - software
   - openstack
 image:
-  path: /images/openstack-arch.svg
-  thumbnail: /images/openstack-arch.svg
+  path: /images/generic/openstack-arch.svg
+  thumbnail: /images/generic/openstack-arch.svg
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2015/08/14/configuring-keystone-with-ibms-bluepages-ldap/](https://developer.ibm.com/opentech/2015/08/14/configuring-keystone-with-ibms-bluepages-ldap/)_
@@ -246,7 +246,7 @@ $ openstack flavor list
 +----+-----------+-------+------+-----------+-------+-----------+
 
 # 4. Launch a VM
-$ openstack server create myVM --image cirros-0.3.4-x86_64-uec --flavor 1 
+$ openstack server create myVM --image cirros-0.3.4-x86_64-uec --flavor 1
 +--------------------------------------+------------------------------------------------------------------+
 | Field                                | Value                                                            |
 +--------------------------------------+------------------------------------------------------------------+

@@ -1,7 +1,7 @@
 ---
 title: "Learn how to power your Salesforce app with Watson"
 excerpt: "An announcement blog for the Salesforce and Watson code pattern"
-tags: 
+tags:
   - software
   - ibm
   - watson

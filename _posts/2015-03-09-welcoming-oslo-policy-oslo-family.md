@@ -1,7 +1,7 @@
 ---
 title: "Welcoming oslo.policy into the OpenStack Oslo family"
 excerpt: "Where we officially announce oslo.policy graduating from the incubator"
-tags: 
+tags:
   - software
   - openstack
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Checklist for performing OpenStack code reviews"
 excerpt: "Best practices for getting reviewing OpenStack patches"
-tags: 
+tags:
   - software
   - openstack
 image:
@@ -81,7 +81,7 @@ A list of [all the Oslo projects](https://wiki.openstack.org/wiki/Oslo)
 
 ### Docstrings and comments
 
-* Docstring – How to use the code
+* Docstring: How to use the code
 * If the author creates a function, and it's doing something non-obvious then ask for a docstring. It'll help future contributors understand what's going on.
 * A docstring should summarize what the function does in a few lines, and document the input parameters, return type and return value.
 * Comment - Why (rationale) and how the code works
@@ -89,7 +89,7 @@ A list of [all the Oslo projects](https://wiki.openstack.org/wiki/Oslo)
 * Use the right format: `# TODO(stevemar)` or `# NOTE(stevemar)`
 * Comments should be helpful, not blatantly obvious. Don't do the following:
 
-  ```
+  ```python
   # We assert that result is true
   assertTrue(result)
   # Initiate a counter

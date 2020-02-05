@@ -1,12 +1,12 @@
 ---
 title: "Keystone Design Summit Outcome and Goals for Mitaka"
 excerpt: "A recap from the Keystone design summit and goals for the next release, Mitaka"
-tags: 
+tags:
   - software
   - openstack
 image:
-  path: /images/openstack-logo.png
-  thumbnail: /images/openstack-logo.png
+  path: /images/generic/openstack-logo.png
+  thumbnail: /images/generic/openstack-logo.png
 ---
 
 _Originally posted on [https://developer.ibm.com/opentech/2015/11/20/keystone-design-summit-outcome-and-goals-for-mitaka/](https://developer.ibm.com/opentech/2015/11/20/keystone-design-summit-outcome-and-goals-for-mitaka/)_

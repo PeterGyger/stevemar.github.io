@@ -1,7 +1,7 @@
 ---
 title: "Learn how to create a Python web app that uses Watson Natural Language Classifier"
 excerpt: "My first take at using Watson's Natural Language Classifier"
-tags: 
+tags:
   - software
   - ibm
   - ibm cloud
