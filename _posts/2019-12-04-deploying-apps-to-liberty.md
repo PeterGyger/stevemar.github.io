@@ -5,8 +5,8 @@ tags:
   - software
   - ibm
 image:
-  path: /images/websphere-liberty-logo.png
-  thumbnail: /images/websphere-liberty-logo.png
+  path: /images/websphere-liberty-logo.jpeg
+  thumbnail: /images/websphere-liberty-logo.jpeg
 ---
 
 These are my rough notes on how I got Liberty up and running on my Ubuntu 18.04 box. These are the steps I did:
