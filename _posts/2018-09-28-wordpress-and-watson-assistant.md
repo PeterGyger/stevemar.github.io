@@ -1,16 +1,16 @@
 ---
 title: "Integrating Watson Assistant with WordPress"
 excerpt: "How to integrate your Watson Assistant chatbot with WordPress"
-tags: 
+tags:
   - software
   - advocacy
   - watson
 image:
-  path: /images/watson-wp-logo.png
-  thumbnail: /images/watson-wp-logo.png
+  path: /images/wordpress-and-watson-assistant/watson-wp-logo.png
+  thumbnail: /images/wordpress-and-watson-assistant/watson-wp-logo.png
 ---
 
-I recently published a tutorial on [IBM Developer](https://developer.ibm.com/tutorials/how-to-integrate-your-watson-assistant-chatbot-with-wordpress/) about integrating Watson Assistant with WordPress. I wanted to give a super, brief description here on my personal site.
+I recently published a tutorial on [IBM Developer](https://developer.ibm.com/tutorials/how-to-integrate-your-watson-assistant-chatbot-with-wordpress/) about integrating Watson Assistant with WordPress. I wanted to give a brief description here on my personal site.
 
 The gist of it is:
 
@@ -18,7 +18,7 @@ The gist of it is:
 
 * Install the [Watson Assistant plugin](https://wordpress.org/plugins/conversation-watson/) on your site.
 
-   ![assistant_plugin_install]({{'/images/assistant_plugin_install.png'}})
+   ![assistant_plugin_install](/images/wordpress-and-watson-assistant/assistant_plugin_install.png)
 
 * Create your Watson Assistant service, make a dialog, all that fun stuff (or use the sample dialog if you're just toying around).
 
@@ -26,4 +26,4 @@ The gist of it is:
 
 * Test it out.
 
-   ![chatbot on wordpress]({{'/images/chatbot.png'}})
+   ![chatbot on wordpress](/images/wordpress-and-watson-assistant/chatbot.png)
