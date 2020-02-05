@@ -4,6 +4,9 @@ excerpt: "Step by step guide to getting an app to WebSphere Liberty"
 tags: 
   - software
   - ibm
+image:
+  path: /images/websphere-liberty-logo.png
+  thumbnail: /images/websphere-liberty-logo.png
 ---
 
 These are my rough notes on how I got Liberty up and running on my Ubuntu 18.04 box. These are the steps I did:
