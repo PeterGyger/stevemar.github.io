@@ -1,13 +1,13 @@
 ---
 title: "Adventures using IBM's Kubernetes service - Part 1"
 excerpt: "Lessons learned from my trials and tribulations using IBM's Kubenetes service"
-tags: 
+tags:
   - software
   - ibm
   - ibm-cloud
 image:
-  path: /images/pyk8s.png
-  thumbnail: /images/pyk8s.png
+  path: /images/adventures-in-iks/pyk8s.png
+  thumbnail: /images/adventures-in-iks/pyk8s.png
 ---
 
 ## Background / my app
@@ -28,7 +28,7 @@ You can likely take any flask sample from the interwebs and as long as you can g
 
 #### Dockerfile
 
-We created a Dockerfile to containerize our app, leveraging the Python 3.7 image. Lines 2 through 5 are only required if you need Node installed, too. 
+We created a Dockerfile to containerize our app, leveraging the Python 3.7 image. Lines 2 through 5 are only required if you need Node installed, too.
 
 > :bulb: One issue we ran into was to ensure the app is hosted on 0.0.0.0. To do so, ensure the Flask app has the following line: `app.run(host='0.0.0.0')`, otherwise when you run your Docker image it won't work.
 
@@ -80,7 +80,7 @@ ibmcloud plugin install container-registry -r Bluemix
 ibmcloud plugin install container-service -r Bluemix
 ```
 
-### Push to IBM Cloud Container Registry 
+### Push to IBM Cloud Container Registry
 
 I unfortunately do not have the output captured for the below commands but they were pretty easy to perform. The gist of it is that you'll need a Container Registry namespace, you can use the IBM Cloud console, or the CLI.
 
@@ -91,7 +91,7 @@ ibmcloud cr login
 
 In this example `aida` is the namespace and `validator` is the image name. Here's a snapshot of what it looks like from the IBM Cloud console.
 
-![iks-overview]({{'/images/iks-container-registry.png'}})
+![iks-overview](/images/adventures-in-iks/iks-container-registry.png)
 
 Now that we've got a namespace we can push our Docker image to the Container Registry with a few commands provided by the console.
 
@@ -99,11 +99,11 @@ Now that we've got a namespace we can push our Docker image to the Container Reg
 $ docker tag validator registry.ng.bluemix.net/aida/validator
 $ docker push registry.ng.bluemix.net/aida/validator
 The push refers to repository [registry.ng.bluemix.net/aida/validator]
-fa64d9aa084c: Pushed 
-f49ef18aebc3: Pushed 
+fa64d9aa084c: Pushed
+f49ef18aebc3: Pushed
 ...
-c240c542ed55: Layer already exists 
-badfbcebf7f8: Layer already exists 
+c240c542ed55: Layer already exists
+badfbcebf7f8: Layer already exists
 latest: digest: sha256:83b1751c89...3e9b4860c480e4b size: 3688
 ```
 
@@ -113,7 +113,7 @@ Almost there, just gotta sping up our kube cluster and point to our image.
 
 To create our kubernetes cluster I used the IBM Cloud console, gave it a name `validator-beta`, selected 2 workers, and picked the lowest requirements to keep costs down.
 
-![iks-overview]({{'/images/iks-overview.png'}})
+![iks-overview](/images/adventures-in-iks/iks-overview.png)
 
 Wanting to go back to my terminal, we need to set up our `kubectl` CLI. Again, the IBM Cloud catalog was helpful and provided me with commands to just copy and paste. Now we can run `kubectl` commands! Yay :tada:
 
@@ -137,8 +137,8 @@ Now to find where our app is being served, run the `ibmcloud ks workers` command
 
 ```bash
 ibmcloud ks workers --cluster validator-beta
-ID                                                 Public IP        Private IP       Machine Type        State    Status   Zone    Version   
-kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1   169.xx.yy.116    10.177.184.133   u2c.2x4.encrypted   normal   Ready    dal10   1.10.12_1543   
+ID                                                 Public IP        Private IP       Machine Type        State    Status   Zone    Version
+kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1   169.xx.yy.116    10.177.184.133   u2c.2x4.encrypted   normal   Ready    dal10   1.10.12_1543
 kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w2   169.xx.yy.241   10.177.184.141   u2c.2x4.encrypted   normal   Ready    dal10   1.10.12_1543
 ```
 
@@ -162,7 +162,7 @@ Events:                   <none>
 
 Navigating to [http://169.xx.yy.116:31760](http://169.xx.yy.116:31760) shows up that the app is up and running. Yay! :tada:
 
-![iks-overview]({{'/images/yaml-validator.png'}})
+![iks-overview](/images/adventures-in-iks/yaml-validator.png)
 
 ### Next post
 

@@ -1,13 +1,13 @@
 ---
 title: "Adventures using IBM's Kubernetes service - Part 2"
 excerpt: "Lessons learned from my trials and tribulations using IBM's Kubenetes service"
-tags: 
+tags:
   - software
   - ibm
   - ibm-cloud
 image:
-  path: /images/pyk8s.png
-  thumbnail: /images/pyk8s.png
+  path: /images/adventures-in-iks/pyk8s.png
+  thumbnail: /images/adventures-in-iks/pyk8s.png
 ---
 
 ## Background
@@ -40,8 +40,8 @@ Now let's update our workers, first we have to find the workers associated with 
 
 ```bash
 ibmcloud ks workers --cluster validator-beta
-ID                                                 Public IP        Private IP       Machine Type        State    Status   Zone    Version   
-kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1   169.xx.yy.116    10.177.184.133   u2c.2x4.encrypted   normal   Ready    dal10   1.10.12_1543*   
+ID                                                 Public IP        Private IP       Machine Type        State    Status   Zone    Version
+kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1   169.xx.yy.116    10.177.184.133   u2c.2x4.encrypted   normal   Ready    dal10   1.10.12_1543*
 kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w2   169.xx.yy.241   10.177.184.141   u2c.2x4.encrypted   normal   Ready    dal10   1.10.12_1543*
 ```
 
@@ -57,15 +57,15 @@ ibmcloud ks worker-update -f --cluster validator-beta --workers kube-dal10-cre85
 
 ### Viewing the workers while updating.
 
-I figured I would add this piece as I found it interesting. You can view the `State` columns change as the worker update is being performed. `State` is changed from `normal` to `reload_pending` to `reloading` and finally back to `normal`, one worker at a time. 
+I figured I would add this piece as I found it interesting. You can view the `State` columns change as the worker update is being performed. `State` is changed from `normal` to `reload_pending` to `reloading` and finally back to `normal`, one worker at a time.
 
 #### Before the update
 
 ```
 ibmcloud ks workers --cluster validator-beta
-ID                                                 Public IP        Private IP       Machine Type        State    Status   Zone    Version   
-kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1   169.xx.yy.116    10.177.184.133   u2c.2x4.encrypted   normal   Ready    dal10   1.10.12_1543*   
-kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w2   169.xx.yy.241   10.177.184.141   u2c.2x4.encrypted   normal   Ready    dal10   1.10.12_1543*   
+ID                                                 Public IP        Private IP       Machine Type        State    Status   Zone    Version
+kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1   169.xx.yy.116    10.177.184.133   u2c.2x4.encrypted   normal   Ready    dal10   1.10.12_1543*
+kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w2   169.xx.yy.241   10.177.184.141   u2c.2x4.encrypted   normal   Ready    dal10   1.10.12_1543*
 ```
 
 #### During the update
@@ -73,20 +73,20 @@ kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w2   169.xx.yy.241   10.177.184.14
 ```bash
 $ ibmcloud ks workers --cluster validator-beta
 OK
-ID                                                 Public IP        Private IP       Machine Type        State            Status   Zone    Version   
-kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1   169.xx.yy.116    10.177.184.133   u2c.2x4.encrypted   reload_pending   -        dal10   1.10.12_1543 --> 1.10.12_1544 (pending)   
-kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w2   169.xx.yy.241   10.177.184.141   u2c.2x4.encrypted   normal           Ready    dal10   1.10.12_1543 --> 1.10.12_1544 (pending)   
+ID                                                 Public IP        Private IP       Machine Type        State            Status   Zone    Version
+kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1   169.xx.yy.116    10.177.184.133   u2c.2x4.encrypted   reload_pending   -        dal10   1.10.12_1543 --> 1.10.12_1544 (pending)
+kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w2   169.xx.yy.241   10.177.184.141   u2c.2x4.encrypted   normal           Ready    dal10   1.10.12_1543 --> 1.10.12_1544 (pending)
 
 $ ibmcloud ks workers --cluster validator-beta
 OK
-ID                                                 Public IP        Private IP       Machine Type        State       Status   Zone    Version   
-kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1   169.xx.yy.116    10.177.184.133   u2c.2x4.encrypted   reloading   -        dal10   1.10.12_1543 --> 1.10.12_1544 (pending)   
-kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w2   169.xx.yy.241   10.177.184.141   u2c.2x4.encrypted   normal      Ready    dal10   1.10.12_1543 --> 1.10.12_1544 (pending)   
+ID                                                 Public IP        Private IP       Machine Type        State       Status   Zone    Version
+kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1   169.xx.yy.116    10.177.184.133   u2c.2x4.encrypted   reloading   -        dal10   1.10.12_1543 --> 1.10.12_1544 (pending)
+kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w2   169.xx.yy.241   10.177.184.141   u2c.2x4.encrypted   normal      Ready    dal10   1.10.12_1543 --> 1.10.12_1544 (pending)
 
 $ ibmcloud ks workers --cluster validator-beta
 OK
-ID                                                 Public IP        Private IP       Machine Type        State       Status   Zone    Version   
-kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1   169.xx.yy.116    10.177.184.133   u2c.2x4.encrypted   normal      Ready    dal10   1.10.12_1544   
+ID                                                 Public IP        Private IP       Machine Type        State       Status   Zone    Version
+kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1   169.xx.yy.116    10.177.184.133   u2c.2x4.encrypted   normal      Ready    dal10   1.10.12_1544
 kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w2   169.xx.yy.241   10.177.184.141   u2c.2x4.encrypted   reloading   -        dal10   1.10.12_1543 --> 1.10.12_1544 (pending)
 ```
 
@@ -95,9 +95,9 @@ kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w2   169.xx.yy.241   10.177.184.14
 ```
 $ ibmcloud ks workers --cluster validator-beta
 OK
-ID                                                 Public IP        Private IP       Machine Type        State    Status   Zone    Version   
-kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1   169.xx.yy.116    10.177.184.133   u2c.2x4.encrypted   normal   Ready    dal10   1.10.12_1544   
-kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w2   169.xx.yy.241   10.177.184.141   u2c.2x4.encrypted   normal   Ready    dal10   1.10.12_1544   
+ID                                                 Public IP        Private IP       Machine Type        State    Status   Zone    Version
+kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w1   169.xx.yy.116    10.177.184.133   u2c.2x4.encrypted   normal   Ready    dal10   1.10.12_1544
+kube-dal10-cre853b87cc0d44926975ee5a41044b1e8-w2   169.xx.yy.241   10.177.184.141   u2c.2x4.encrypted   normal   Ready    dal10   1.10.12_1544
 ```
 
 ### Make it copy-pasta friendly
