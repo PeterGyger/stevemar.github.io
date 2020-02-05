@@ -1,18 +1,18 @@
 ---
 title: "Updating IBM Cloud CLI plugins"
 excerpt: "CLI Adventures: The IBM Cloud CLI edition"
-tags: 
+tags:
   - software
   - ibm
   - ibm-cloud
 image:
-  path: /images/ibm-cloud-cli-plugins.png
-  thumbnail: /images/ibm-cloud-cli-plugins.png
+  path: /images/updating-ibm-cloud-cli/ibm-cloud-cli-plugins.png
+  thumbnail: /images/updating-ibm-cloud-cli/ibm-cloud-cli-plugins.png
 ---
 
 So I had to update the IBM Cloud CLI. Easy right? Well, sorta. Now I know I had a few extra plugins (cloud-functions, container-service, and container-registry) in addition to the CLI, I was hoping those would be updated at the same time.
 
-```
+```bash
 $ ibmcloud update
 Checking for updates...
 No update required. Your CLI is already up-to-date.
@@ -37,7 +37,7 @@ No update required. Your CLI is already up-to-date.
 [install_plugins] Installing plugin 'cloud-functions'
 Looking up 'cloud-functions' from repository 'IBM Cloud'...
 Plug-in 'cloud-functions 1.0.28' found in repository 'IBM Cloud'
-Plug-in 'cloud-functions/wsk/functions/fn 1.0.22' was already installed. Do you want to update it with 'cloud-functions 1.0.28' or not? [y/N]> 
+Plug-in 'cloud-functions/wsk/functions/fn 1.0.22' was already installed. Do you want to update it with 'cloud-functions 1.0.28' or not? [y/N]>
 FAILED
 Could not read from input: EOF
 ```
@@ -65,7 +65,7 @@ The plug-in was successfully upgraded.
 [install_plugins] Installing plugin 'container-service'
 Looking up 'container-service' from repository 'IBM Cloud'...
 Plug-in 'container-service/kubernetes-service 0.2.30' found in repository 'IBM Cloud'
-Plug-in 'container-service/kubernetes-service 0.1.593' was already installed. Do you want to update it with 'container-service/kubernetes-service 0.2.30' or not? [y/N]> 
+Plug-in 'container-service/kubernetes-service 0.1.593' was already installed. Do you want to update it with 'container-service/kubernetes-service 0.2.30' or not? [y/N]>
 FAILED
 Could not read from input: EOF
 ```
@@ -73,12 +73,12 @@ Could not read from input: EOF
 #### And a summary message
 
 ```bash
-Plugin Name                            Version   Status   
-dev                                    2.1.12       
-sdk-gen                                0.1.12       
-cloud-functions/wsk/functions/fn       1.0.22    Update Available   
-container-registry                     0.1.360      
-container-service/kubernetes-service   0.1.593   Update Available   
+Plugin Name                            Version   Status
+dev                                    2.1.12
+sdk-gen                                0.1.12
+cloud-functions/wsk/functions/fn       1.0.22    Update Available
+container-registry                     0.1.360
+container-service/kubernetes-service   0.1.593   Update Available
 
 [install_plugins] Finished installing/updating plugins
 [install] Install finished.
@@ -145,10 +145,10 @@ Plug-in 'cloud-functions 1.0.28' was successfully installed into /Users/stevemar
 $ ibmcloud plugin list
 Listing installed plug-ins...
 
-Plugin Name                            Version   Status   
-dev                                    2.1.12       
-sdk-gen                                0.1.12       
-cloud-functions/wsk/functions/fn       1.0.28       
-container-registry                     0.1.360      
-container-service/kubernetes-service   0.2.30       
+Plugin Name                            Version   Status
+dev                                    2.1.12
+sdk-gen                                0.1.12
+cloud-functions/wsk/functions/fn       1.0.28
+container-registry                     0.1.360
+container-service/kubernetes-service   0.2.30
 ```

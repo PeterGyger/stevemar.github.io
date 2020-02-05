@@ -1,19 +1,19 @@
 ---
 title: "Connect to IBM's LDAP, Bluepages, with Python"
 excerpt: "The least amount of Python you need to write to connect to IBM's LDAP -- Bluepages"
-tags: 
+tags:
   - software
   - ibm
   - python
   - ldap
 image:
-  path: /images/bluepages-banner.png
-  thumbnail: /images/bluepages-banner.png
+  path: /images/python-ldap-bluepages/bluepages-banner.png
+  thumbnail: /images/python-ldap-bluepages/bluepages-banner.png
 ---
 
 If you've ever worked at IBM then you know what Bluepages is, for those who don't, it's the company's LDAP server. It's most commonly used via a web interface where employees can look up other employees. Check it out below.
 
-![bluepages]({{'/images/bluepages.png'}})
+![bluepages](/images/python-ldap-bluepages/bluepages.png)
 
 As part of my day job I help run the [IBM Developer](https://developer.ibm.com/) site, which lists a bunch of our [Developer Advocates](https://developer.ibm.com/profiles/). Recently someone left the company and their page remained until someone made a PR to remove it. I saw this as an opportunity to ideate how I would improve things. A bit of Python and a travis job that runs daily to remove users that are not found should do the trick!
 
@@ -52,6 +52,6 @@ You'll get back something like this:
 }
 ```
 
-What I like about the python-ldap library is that it makes things simple. Even after working for years on [OpenStack's Identity service](https://github.com/openstack/keystone/blob/master/keystone/identity/backends/ldap/core.py) I still scratch my head if given too many prompts. 
+What I like about the python-ldap library is that it makes things simple. Even after working for years on [OpenStack's Identity service](https://github.com/openstack/keystone/blob/master/keystone/identity/backends/ldap/core.py) I still scratch my head if given too many prompts.
 
 Hope this helps other IBMers looking to whip up a quick prototype or two!

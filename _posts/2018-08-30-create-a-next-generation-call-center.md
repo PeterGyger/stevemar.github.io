@@ -9,8 +9,8 @@ tags:
   - watson voice gateway
   - watson assistant
 image:
-  path: /images/selfserviceagent.png
-  thumbnail: /images/selfserviceagent.png
+  path: /images/create-a-next-generation-call-center/selfserviceagent.png
+  thumbnail: /images/create-a-next-generation-call-center/selfserviceagent.png
 ---
 
 _Originally posted on [https://developer.ibm.com/announcements/create-a-next-generation-call-center-blog](https://developer.ibm.com/announcements/create-a-next-generation-call-center-blog)_
@@ -41,7 +41,7 @@ As mentioned in the title, this [code pattern](/patterns/create-a-next-generatio
 
 IBM Voice Gateway also lets you use a service orchestration engine (SOE) to provide customization with APIs. This SOE sits between Watson Assistant and Voice Gateway so that you can further customize your environment with your own third-party APIs. See [their GitHub repo](https://github.com/WASdev/sample.voice.gateway) for examples. Additionally, Voice Gateway supports English, Japanese, Portuguese (Brazilian), and Spanish.
 
-![selfserviceagent]({{'/images/selfserviceagent.png'}})
+![selfserviceagent](/images/create-a-next-generation-call-center/selfserviceagent.png)
 
 IBM Voice Gateway provides a pretty nice set of features for self-service agents:
 
@@ -53,7 +53,7 @@ IBM Voice Gateway provides a pretty nice set of features for self-service agents
 
 ... and much more
 
-![phone-contrast]({{'/images/phone-contrast.jpg'}})
+![phone-contrast](/images/create-a-next-generation-call-center/phone-contrast.jpg)
 
 ### What is IBM Cloud Private?
 
@@ -67,7 +67,7 @@ Simply put, we used three services for this code pattern:
 * [Watson Assistant](https://www.ibm.com/watson/developercloud/conversation.html): Analyzes the text, maps it to intents or capabilities, and provides a response according to a dialog
 * [Watson Text to Speech](https://www.ibm.com/watson/developercloud/text-to-speech.html): Converts the response into voice audio
 
-![robots]({{'/images/robots.jpg'}})
+![robots](/images/create-a-next-generation-call-center/robots.jpg)
 
 ## How can I get started?
 

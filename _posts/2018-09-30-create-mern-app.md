@@ -1,14 +1,14 @@
 ---
 title: "Create a cloud native MERN application from a starter kit"
 excerpt: "An announcement blog for my latest Code Pattern, a MERN application"
-tags: 
+tags:
   - software
   - ibm
   - ibm cloud
   - mern
 image:
-  path: /images/web-starter-kits.png
-  thumbnail: /images/web-starter-kits.png
+  path: /images/create-mern-app/web-starter-kits.png
+  thumbnail: /images/create-mern-app/web-starter-kits.png
 ---
 
 _by Steve Martinelli and Emma Tucker_
@@ -48,7 +48,7 @@ Starter kits are designed to get you up and running FAST. In just a few clicks y
 
 IBM Cloud has over 15 starter kits just for web apps. We cover MERN, MEAN, Python, Swift, and Java. In addition to web apps, IBM Cloud also provides starter kits for Apple mobile development, Watson, and finance.
 
-![web-starter-kits]({{'/images/web-starter-kits.png'}})
+![web-starter-kits](/images/create-mern-app/web-starter-kits.png)
 
 ## Get started quickly with your Cloud Native application
 
