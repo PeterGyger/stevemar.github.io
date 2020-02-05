@@ -1,11 +1,11 @@
 ---
 title: "Contributing to Open Source projects: Googliser"
 excerpt: "Adding a new feature to a slick CLI tool -- JFDI"
-tags: 
+tags:
   - software
 image:
-  path: /images/opensource.png
-  thumbnail: /images/opensource.png
+  path: /images/contrib-to-os-googliser/opensource.png
+  thumbnail: /images/contrib-to-os-googliser/opensource.png
 ---
 
 *Background image from: [https://opensource.org](https://opensource.org)*
@@ -20,7 +20,7 @@ I looked at the code for the project, realized it was just a bunch of bash, and 
 
 So I went home early that day and whipped up a pull request to add the feature he was looking for. You can see [the pull request](https://github.com/teracow/googliser/pull/19) it in all its glory.
 
-![googliser-pr]({{'/images/googliser-pr.png'}})
+![googliser-pr](/images/contrib-to-os-googliser/googliser-pr.png)
 
 > Pro tip: As Colleen Murphy has said many times over, commit messages matter, so make them good! [Watch the video](https://www.youtube.com/watch?v=pU-VasVPNAs)
 
@@ -28,4 +28,4 @@ So why am I writing this? I’m hoping that you are encouraged by this post to p
 
 And, plus, the kudos are always cool.
 
-![googliser-thanks]({{'/images/googliser-thanks.png'}})
+![googliser-thanks](/images/contrib-to-os-googliser/googliser-thanks.png)
