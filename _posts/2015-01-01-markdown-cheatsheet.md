@@ -3,7 +3,7 @@ title: "Markdown cheatsheet"
 sub_title: "Quick lookup table for all markdown elements supported by the so-simple theme"
 tags:
   - markdown
-image: 
+image:
   path: http://timjames.me/img/jekyll/feature.jpg
   thumbnail: http://timjames.me/img/jekyll/feature.jpg
 ---
@@ -81,8 +81,8 @@ Do It Live
 
 ## Unordered Lists (Nested)
 
-  * List item one 
-      * List item one 
+  * List item one
+      * List item one
           * List item one
           * List item two
           * List item three
@@ -96,8 +96,8 @@ Do It Live
 
 ## Ordered List (Nested)
 
-  1. List item one 
-      1. List item one 
+  1. List item one
+      1. List item one
           1. List item one
           2. List item two
           3. List item three
@@ -333,7 +333,7 @@ Indentation matters. Be sure the indent of the code block aligns with the first 
 
 1. Do step 1.
 2. Now do this:
-   
+
    ```ruby
    def print_hi(name)
      puts "Hi, #{name}"
@@ -341,7 +341,7 @@ Indentation matters. Be sure the indent of the code block aligns with the first 
    print_hi('Tom')
    #=> prints 'Hi, Tom' to STDOUT.
    ```
-        
+
 3. Now you can do this.
 
 ## GitHub Gist Embed

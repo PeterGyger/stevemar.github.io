@@ -1,11 +1,11 @@
 ---
 title: "Cleaning up multiple local git folders"
 excerpt: "Using bash to tidy up multiple git projects all at once"
-tags: 
+tags:
   - software
 image:
-  path: /images/git-banner.png
-  thumbnail: /images/git-banner.png
+  path: /images/generic/git-banner.png
+  thumbnail: /images/generic/git-banner.png
 ---
 
 When working on a new software project cloning multiple repos is par for the course. On top of this, I'm a bit of clean freak in both my living space and my virtual spaces. I like a zero-inbox, my shirts are organized by season, it's a thing. I also love it when my local repos are as up to date as possible. Cleanliness aside, it just makes sense, since if you want to start a new branch you want to start at the newest state.

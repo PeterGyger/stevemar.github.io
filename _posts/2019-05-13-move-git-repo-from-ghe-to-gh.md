@@ -1,11 +1,11 @@
 ---
 title: "Move a repo from GitHub Enterprise to GitHub"
 excerpt: "Using bash to move open source an internal project on GitHub Enterprise"
-tags: 
+tags:
   - software
 image:
-  path: /images/git-banner.png
-  thumbnail: /images/git-banner.png
+  path: /images/generic/git-banner.png
+  thumbnail: /images/generic/git-banner.png
 ---
 
 Occaisionally internal projects are open sourced. We have GitHub Enterprise (GHE) internally, and then host open source projects on Github.com/IBM. The quickest way I've figured out to open source the code is to create a new repo on public github and run a quick and dirty script (aptly named `mover.sh`) that allows me to specify the org and repo on GHE. Note, that using the following approach *will copy the entire commit history*. Be careful you don't have any secrets or passphrases in there!
