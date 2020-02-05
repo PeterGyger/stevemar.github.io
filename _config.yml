@@ -19,7 +19,7 @@ title: "Steve Martinelli's blog"
 description: "A place for my notes on tech and other things"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://stevemar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: "/images/logo.png"
+logo: "/images/site/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
@@ -90,7 +90,7 @@ defaults:
 # Site Author
 author:
   name: Steve Martinelli
-  picture: /images/stevemar.jpeg
+  picture: /images/site/stevemar.jpeg
   email:
   twitter: stevebot
   links:
