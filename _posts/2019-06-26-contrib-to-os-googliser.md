@@ -4,8 +4,8 @@ excerpt: "Adding a new feature to a slick CLI tool -- JFDI"
 tags: 
   - software
 image:
-  path: /images/open-source-is-magic.jpeg
-  thumbnail: /images/open-source-is-magic.jpeg
+  path: /images/opensource.png
+  thumbnail: /images/opensource.png
 ---
 
 *Background image from: [https://blog.rapid7.com/2018/07/19/open-source-security-meetup-ossm-vegas-2018/](https://blog.rapid7.com/2018/07/19/open-source-security-meetup-ossm-vegas-2018/)*
