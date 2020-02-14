@@ -1,5 +1,5 @@
 ---
-title: "Quickly create license files in GitHub"
+title: "Create a license file for your GitHub repo in 4 clicks"
 excerpt: "Use GitHub's license templates to quickly create a well structured license file in your repo."
 tags:
   - software
